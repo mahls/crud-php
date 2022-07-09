@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(27, 26, 26);
+}
+
+/* NAVIGATION STYLE ----------------------------------------------------------------*/
+
+.navcontainer {
+    display: flex; justify-content: space-between;
+    background-color: rgb(15, 15, 15); color: white;
+    padding: 10px; font-weight: bold;
+    font-size: 13px;
+    font-family: monospace;
+}
+.navcontainer .logo { background-color: rgb(15, 15, 15); }
+.navcontainer .time { background-color: rgb(15, 15, 15); }
+.formsection { background-color: grey; }
+
+/* FORM USER SECTION ---------------------------------------------------------------------*/
+
+.formsection .formtag {
+    margin-top: 60px;
+}
+
+.formsection .formtag .buttondiv {
+    display: flex;
+    justify-content: center;
+}
+
+.formsection .formtag .buttondiv input {
+    background-color: rgb(22, 164, 12);
+    color: white;
+    width: 400px;
+    margin-top: 3px;
+    border: 1px solid green;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.formsection .formtag .buttondiv input:hover {
+    background-color: rgb(12, 132, 3);
+    transition: 0.5s;
+}
+
+.formsection .formtag .labelinputcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.formsection .formtag .formlabels {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    color: white;
+}
+
+.formsection .formtag .formlabels .labeltag {
+    padding-bottom: 6.5px;
+    padding-top: 5px;
+}
+
+.formsection .formtag .formlabels .labeltag label {
+    font-size: 17px;
+}
+
+
+.formsection .formtag .forminputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.formsection .formtag .forminputs .inputtag {
+    padding-bottom: 6.5px;
+}
+
+.formsection .formtag .forminputs .inputtag input {
+    border-radius: 2px;
+    border: 1px solid grey;
+    height: 25px;
+    width: 300px;
+    color: rgb(189, 189, 189);
+    padding-left: 10px;
+    font-size: 15px;
+    padding: 3px;
+
+}
+
+.formsection .formtag .gotodisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.formsection .gotodisplay {
+    display: flex;
+    justify-content: center;
+}
+
+.formsection .gotodisplay button {
+    background-color: rgb(10, 114, 193);
+    color: white;
+    width: 400px;
+    margin-top: 3px;
+    border: 1px solid rgb(0, 30, 128);
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.formsection .gotodisplay button:hover {
+    transition: 0.5s;
+    background-color: rgb(0, 64, 255);
+}
+
+/* DISPLAY PAGE ----------------------------------------------------------------*/
+
+.displaysection {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.displaysection .displaybutton {
+    font-size: 15px;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid rgb(14, 124, 14);
+    background-color: rgb(19, 154, 19);
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.displaysection .displaybutton:hover  {
+    transition: 0.5s;
+    background-color: rgb(12, 123, 12);
+}
+
+.displaysection  .displaytitlesmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.displaysection  .displaytitles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.displaysection  .displaytitles .item {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.displaysection  .displaytitles .opbtns {
+    width: 30px;
+    font-size: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+.displaysection  .displaytitles .deletebtn {
+    background-color: rgb(213, 24, 24);
+    border: 1px solid rgb(236, 8, 8);
+}
+
+.displaysection  .displaytitles .updatebtn {
+    border: 1px solid rgb(7, 117, 200);
+    background-color: rgb(0, 106, 255);
+}
+
+.displaysection  .displaytitles .updatebtn:hover {
+    background-color: rgb(0, 75, 214);
+    transition: 0.5s;
+}
+
+.displaysection  .displaytitles .deletebtn:hover {
+    background-color: rgb(161, 20, 9);
+    transition: 0.5s;
+}
+
+.displaysection  .displaytitles .itemapnd {
+    font-size: 13px;
+    color: rgb(179, 179, 179);
+}
+
+
+.displaysection .displaytable {
+    width: 100%;
+    color: white;
+    align-items: center;
+}
+
+
+.displaysection .displaytable .display-td-head {
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(42, 42, 42);
+
+ }
+
+
+ .displaysection .displaytable .display-td-appnd {
+    font-size: 13px;
+    color: rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(53, 53, 53);
+    padding-bottom: 10px;
+    padding-top: 10px;
+ }
+
+
+ .displaysection .displaytable .display-td-appnd .opbtns {
+    width:30px;
+    height: 15px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white; 
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 1.2px;
+    border: none;
+ }
+
+ .displaysection .displaytable .display-td-appnd .appndbtns {
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+ }
+
+ .displaysection .displaytable .display-td-appnd .opU {
+    background-color: rgb(0, 106, 255);
+    margin-right:5px;
+ }
+
+ .displaysection .displaytable .display-td-appnd .opX {
+    background-color: rgb(213, 18, 18);
+    height: 15.6px;
+ }
+
+ .displaysection .displaytable .display-td-appnd .appndbtns a {
+    text-decoration: none;
+    color: white;
+ }
